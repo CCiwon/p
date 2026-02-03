@@ -504,7 +504,7 @@ body {
 .nav-home {
   position: absolute;
   top: 13.89%; /* 150 / 1080 */
-  left: 5.55%; /* 145 / 1920 */
+  left: 5%; /* 145 / 1920 */
 }
 
 /* PORTFOLIO 버튼 */
