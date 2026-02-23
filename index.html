@@ -344,6 +344,7 @@
       let wheelCooldown = false;
       document.addEventListener("wheel", (e) => {
         if (wheelCooldown) return;
+        if (popupModal.classList.contains("active")) return;
         const active = document.querySelector(".section.active");
         if (active && active.navigateSlider) {
           if (e.deltaY > 0) active.navigateSlider("right");
